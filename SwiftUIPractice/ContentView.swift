@@ -8,14 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var color: Color = .red
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Hello, World!")
+                .foregroundStyle(color)
+            Button {
+                if color == .red {
+                    color = .blue
+                } else {
+                    color = .red
+                }
+            } label: {
+                Text("button")
+            }
+            BindingView(color: $color)
         }
-        .padding()
+    }
+}
+
+struct BindingView: View {
+    @Binding var color: Color
+    var body: some View {
+        VStack {
+            Button {
+                if color == .green {
+                    color = .blue
+                } else {
+                    color = .green
+                }
+            } label: {
+                Text("Binding Button")
+            }
+        }
     }
 }
 

@@ -6,17 +6,20 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5F938FA92CE11090003D0021 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F938FA32CE11090003D0021 /* Preview Assets.xcassets */; };
+		5F938FAA2CE11090003D0021 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F938FA52CE11090003D0021 /* Assets.xcassets */; };
+		5F938FAB2CE11090003D0021 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F938FA62CE11090003D0021 /* ContentView.swift */; };
+		5F938FAC2CE11090003D0021 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F938FA72CE11090003D0021 /* SwiftUIPracticeApp.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5F938F892CE10EB1003D0021 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F938FA32CE11090003D0021 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F938FA52CE11090003D0021 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F938FA62CE11090003D0021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5F938FA72CE11090003D0021 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5F938F8B2CE10EB1003D0021 /* SwiftUIPractice */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SwiftUIPractice;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5F938F862CE10EB1003D0021 /* Frameworks */ = {
@@ -32,7 +35,7 @@
 		5F938F802CE10EB1003D0021 = {
 			isa = PBXGroup;
 			children = (
-				5F938F8B2CE10EB1003D0021 /* SwiftUIPractice */,
+				5F938FA82CE11090003D0021 /* SwiftUIPractice */,
 				5F938F8A2CE10EB1003D0021 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +46,25 @@
 				5F938F892CE10EB1003D0021 /* SwiftUIPractice.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5F938FA42CE11090003D0021 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F938FA32CE11090003D0021 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F938FA82CE11090003D0021 /* SwiftUIPractice */ = {
+			isa = PBXGroup;
+			children = (
+				5F938FA42CE11090003D0021 /* Preview Content */,
+				5F938FA62CE11090003D0021 /* ContentView.swift */,
+				5F938FA72CE11090003D0021 /* SwiftUIPracticeApp.swift */,
+				5F938FA52CE11090003D0021 /* Assets.xcassets */,
+			);
+			path = SwiftUIPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +81,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5F938F8B2CE10EB1003D0021 /* SwiftUIPractice */,
 			);
 			name = SwiftUIPractice;
 			packageProductDependencies = (
@@ -109,6 +128,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F938FA92CE11090003D0021 /* Preview Assets.xcassets in Resources */,
+				5F938FAA2CE11090003D0021 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F938FAB2CE11090003D0021 /* ContentView.swift in Sources */,
+				5F938FAC2CE11090003D0021 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
